@@ -1,0 +1,16 @@
+<svg width="450" height="300" viewBox="-30 -250 300 500" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="0" cy="0" ry="160" rx="250" fill="none" stroke-width="3" stroke="black"/>
+    <text x="0" y="0"
+          fill="black" font-size="40"
+          text-anchor="middle" dominant-baseline="middle"
+          font-family="STIX, STIXGeneral, Times, serif">
+        Decomposable Operators S<tspan dy="+1ex" font-size="30"><tspan class="subscript">M</tspan></tspan>
+    </text>
+
+    <circle cx="400" cy="0" r="10" fill="black"/>
+    <text x="420" y="0" fill="black" font-size="40"
+          text-anchor="start" dominant-baseline="middle" font-style="italic"
+          font-family="STIX, STIXGeneral, Times, serif">
+        W
+    </text>
+</svg>

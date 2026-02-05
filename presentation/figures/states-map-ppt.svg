@@ -1,0 +1,72 @@
+<svg width="1000" height="500" viewBox="-750 -400 1500 800" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <ellipse id="e" cx="100" cy="0" rx="200" ry="150"/>
+
+        <path id="hull" d="M 139.83 -213.81
+            A 200 150 -30 0 1 255.08 -14.19
+            L 115.25 228.00
+            A 200 150 -270 0 1 -115.25 228.00
+            L -255.08 -14.19
+            A 200 150 -150 0 1 -139.83 -213.81
+            Z" />
+    </defs>
+
+    <circle cx="0" cy="0" r="400" stroke="none" stroke-width="1.5" fill="#ffe6cd"/>
+
+    <g transform="translate(0,0) scale(1.2)">
+        <use href="#hull" stroke="none" fill="#559be8" fill-opacity="0.7"/>
+    </g>
+
+    <g transform="translate(0,0)">
+        <use href="#e" fill="rgb(95, 70, 144)" fill-opacity="0.7" transform="rotate(-30)"/>
+        <use href="#e" fill="rgb(148, 52, 110)" fill-opacity="0.7" transform="rotate(-150)"/>
+        <use href="#e" fill="rgb(29, 105, 150)" fill-opacity="0.7" transform="rotate(-270)"/>
+        <text transform="rotate(-30 0 0) translate(200,0) rotate(30 0 0)" fill="white" font-size="40"
+              text-anchor="middle" dominant-baseline="middle"
+              font-family="Source Sans Pro, Helvetica, sans-serif">
+            A|BC
+        </text>
+        <text transform="rotate(-150 0 0) translate(200,0) rotate(150 0 0)" fill="white" font-size="40"
+              text-anchor="middle" dominant-baseline="middle"
+              font-family="Source Sans Pro, Helvetica, sans-serif">
+            B|AC
+        </text>
+        <text transform="rotate(-270 0 0) translate(200,0) rotate(270 0 0)" fill="white" font-size="40"
+              text-anchor="middle" dominant-baseline="middle"
+              font-family="Source Sans Pro, Helvetica, sans-serif">
+            C|AB
+        </text>
+        <text x="0" y="0" fill="white" font-size="40"
+              text-anchor="middle" dominant-baseline="middle"
+              font-family="Source Sans Pro, Helvetica, sans-serif">
+            A|B|C
+        </text>
+    </g>
+
+    <g transform="translate(0,0) scale(1.2)">
+        <use href="#e" fill="none" stroke="rgb(95, 70, 144)" stroke-width="5" transform="rotate(-30)"/>
+        <use href="#e" fill="none" stroke="rgb(148, 52, 110)" stroke-width="5" transform="rotate(-150)"/>
+        <use href="#e" fill="none" stroke="rgb(29, 105, 150)" stroke-width="5" transform="rotate(-270)"/>
+    </g>
+
+    <text x="0" y="-320" fill="black" font-size="40"
+          text-anchor="middle" dominant-baseline="middle"
+          font-family="Source Sans Pro, Helvetica, sans-serif">
+        All States
+    </text>
+
+    <defs>
+        <marker id="arrow" viewBox="0 0 12 6" refX="5" refY="5"
+                markerWidth="8" markerHeight="10" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z"/>
+        </marker>
+    </defs>
+
+    <text x="400" y="150" fill="black" font-size="40"
+          text-anchor="start" dominant-baseline="hanging"
+          font-family="Source Sans Pro, Helvetica, sans-serif">
+        PPT Mixtures
+    </text>
+    <path d="M 400,150 Q 290,50 200,120"
+          stroke="black" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+</svg>

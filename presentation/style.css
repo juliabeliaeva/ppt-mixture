@@ -1,0 +1,52 @@
+.v-center-content {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+.states-map {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.reveal .slides section.v-center-slide {
+    display: flex !important;
+    flex-direction: column;
+}
+
+.biseparable-cols .colwrap {
+    height: 100%;
+}
+
+.biseparable-cols .colwrap p img {
+    display: block;
+    margin: auto;
+    transform: translateY(calc(100% - 70px));
+}
+
+.reference {
+    position: absolute;
+    bottom: -40px;
+    right: 0;
+    font-size: 1em;
+    text-align: right;
+    z-index: 9999;
+}
+
+html.reveal-print .reference {
+    bottom: 20px !important;
+}
+
+html.reveal-print .reveal .slides section.v-center-slide {
+    position: relative;
+}
+
+html.reveal-print .v-center-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}

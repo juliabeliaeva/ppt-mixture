@@ -1,0 +1,30 @@
+<svg width="400" height="400" viewBox="-285 -180 570 440" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="86.6" cy="50" rx="280" ry="130"
+             fill="none" stroke="black" stroke-width="4"
+             transform="rotate(-60 86.6 50)"/>
+
+    <g transform="rotate(-30 0 0) translate(200,0) rotate(30 0 0)">
+        <circle cx="0" cy="0" r="20" fill="black"/>
+        <text transform="translate(40, 0)" fill="black" font-size="60"
+              text-anchor="start" dominant-baseline="auto"
+              font-family="Source Sans Pro, Helvetica, sans-serif">
+            A
+        </text>
+    </g>
+    <g transform="rotate(-150 0 0) translate(200,0) rotate(150 0 0)">
+        <circle cx="0" cy="0" r="20" fill="black"/>
+        <text transform="translate(-40, 0)" fill="black" font-size="60"
+              text-anchor="end" dominant-baseline="auto"
+              font-family="Source Sans Pro, Helvetica, sans-serif">
+            B
+        </text>
+    </g>
+    <g transform="rotate(-270 0 0) translate(200,0) rotate(270 0 0)">
+        <circle cx="0" cy="0" r="20" fill="black"/>
+        <text transform="translate(0, 40)" fill="black" font-size="60"
+              text-anchor="middle" dominant-baseline="hanging"
+              font-family="Source Sans Pro, Helvetica, sans-serif">
+            C
+        </text>
+    </g>
+</svg>
